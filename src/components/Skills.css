@@ -1,0 +1,44 @@
+.skill-list{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    
+}
+
+.skills{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-content
+{
+    width: 100%;
+    max-width: 650px;
+    padding: 20px;
+}
+
+.skills-content h2
+{
+    text-align: center;
+}
+
+.skill-category
+{
+    margin-bottom: 25px;
+}
+
+.skill-list span{
+    padding: 5px 9px;
+
+    border: 1px solid var(--text-secondary);
+    border-radius: 12px;
+
+    color: var(--text-primary);
+    background-color: var(--surface);
+
+    margin-top: 7px;
+    
+}
+

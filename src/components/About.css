@@ -1,0 +1,58 @@
+.about
+{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content
+{
+    text-align: center;
+    max-width: 750px;
+    padding: 20px;
+}
+
+.focus-tags
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;   
+    
+    margin-top: 15px;
+}
+
+.focus-tags span 
+{
+    padding: 8px 14px;
+
+    background-color: var(--surface);
+    color: var(--text-primary);
+     
+    border: 1px solid var(--text-secondary);
+    border-radius: 8px;
+}
+
+.about-content h2
+{
+    font-size: 2.5rem; 
+    margin-bottom: 30px;
+}
+
+.about-content h3
+{
+    font-size: 1.3rem; 
+    margin-bottom: 10px;
+}
+
+
+.about-description
+{
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+

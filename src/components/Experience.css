@@ -1,0 +1,72 @@
+.experience-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.experience {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-content {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.experience-content h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.experience-card {
+    padding: 20px;
+    border: 1px solid var(--text-secondary);
+    border-radius: 12px;
+    background-color: var(--surface);
+}
+
+.experience-description {
+    margin-top: 20px;
+    line-height: 25px;
+    padding: 7px;
+}
+
+
+.experience-description li
+{
+    margin-bottom: 8px;
+}
+
+.experience-description h4{
+    margin-bottom: 8px;
+}
+
+.experience-technologies span
+{
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid var(--text-secondary);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px)
+{
+    .experience-header{
+        flex-direction: column;
+        text-align: center;
+         align-items: center;
+    }
+}
