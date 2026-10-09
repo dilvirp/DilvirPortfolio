@@ -17,3 +17,50 @@ This website showscases my technical skills, software development projects, prof
 - Professional experience section 
 - Contact links for email, LinkedIn, and GitHub
 - Smooth navigation between sections.
+
+## Technologies Used
+
+- **React** - JavaScript library for building user interfaces
+- **TypeScript** - Adds static typing to JavaScript
+- **CSS** - Styles the website and makes it responsive
+- **Vite** - Development and build tools
+- **Vercel** - Hosts and deploys the website
+
+## Installation and Setup
+
+### 1. Clone the repository 
+
+ ```bash
+ git clone https://github.com/dilvirp/DilvirPortfolio.git
+ ```
+
+ ### 2. Navigate into the project
+
+ ```bash
+ cd DilvirPortfolio
+ ```
+
+ ### 3. Install dependencies 
+
+```bash 
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Deployment
+
+This portfolio is deployed using Vercel.
+
+The website automatically  rebuilt and deployed when new changes are pushed to the main branch on GitHub.
+
+## Author
+
+**Dilvir Parmar**
+
+- GitHub: https://github.com/dilvirp
+- Portfolio: https://dilvir-portfolio.vercel.app/
