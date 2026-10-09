@@ -40,7 +40,7 @@ function Projects() {
                 [
                     {
                         "label": "GitHub",
-                        "url": ""
+                        "url": "https://github.com/dilvirp/DilvirPortfolio"
                     },
                 ]
         }
