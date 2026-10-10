@@ -11,7 +11,7 @@ function Navbar() {
 
         document.documentElement.setAttribute(
             'data-theme',
-            newTheme ? 'light' : 'dark'
+            newTheme ? 'dark' : 'light'
         );
     }
     return (
